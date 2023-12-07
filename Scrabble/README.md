@@ -10,4 +10,10 @@ The next line shows whose turn it is: 0 means it's Player 1's turn, and 1 means 
 
 The next two lines show each player's score. The first line is Player 1's score, the second line is Player 2's score
 
-The last two lines show each player's letter rack.
+The last two lines show each player's letter rack (note that the program only considers the current player's rack when
+making decisions).
+
+## How the Program Works
+First, the program creates a search tree of what I call "identities." Each node is either: 1) a branch, or 2) a leaf
+- Each branch contains an array of children.
+- Each leaf contains an "identity," which is the frequencies of characters 

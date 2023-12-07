@@ -1,0 +1,86 @@
+public static void organizeData() {
+    across = new ArrayList<String>();
+    vertical = new ArrayList<String>();
+    areWordsA = new boolean[rows][cols];
+    areWordsV = new boolean[rows][cols];
+
+    for (int r=0; r<rows; r++) {
+        String wordA = "";
+
+        for (int c=0; c<cols; c++) {
+            if (board[r][c] == ' ') {
+                if (wordA.length() > 0) {
+                    across.add(wordA);
+                    if (isWord(wordA)) {
+                        for (int k=c-1; k>=0; k--) {
+                            if (board[r][k] == ' ') k = -1;
+                            else areWordsA[r][k] = true;
+                        }
+                    }
+                }
+                wordA = "";
+            }
+            else {
+                wordA = wordA + board[r][c];
+            }
+        }
+
+        if (wordA.length() > 0) {
+            across.add(wordA);
+            if (isWord(wordA)) {
+                for (int k=cols-1; k>=0; k--) {
+                    if (board[r][k] == ' ') k = -1;
+                    else areWordsA[r][k] = true;
+                }
+            }
+        }
+    }
+
+    for (int c=0; c<cols; c++) {
+        String wordV = "";
+
+        for (int r=0; r<rows; r++) {
+            if (board[r][c] == ' ') {
+                if (wordV.length() > 0) {
+                    vertical.add(wordV);
+                    if (isWord(wordV)) {
+                        for (int k=r-1; k>=0; k--) {
+                            if (board[k][c] == ' ') k = -1;
+                            else areWordsV[k][c] = true;
+                        }
+                    }
+                }
+                wordV = "";
+            }
+            else {
+                wordV = wordV + board[r][c];
+            }
+        }
+
+        if (wordV.length() > 0) {
+            vertical.add(wordV);
+            if (isWord(wordV)) {
+                for (int k=rows-1; k>=0; k--) {
+                    if (board[k][c] == ' ') k = -1;
+                    else areWordsV[k][c] = true;
+                }
+            }
+        }
+    }
+}
+
+...#....#.....#
+...#....#......
+KILLBILL#......
+.....#.....#...
+....#ISLEOFDOGS
+##....##....###
+...#.....##....
+DOTHERIGHTTHING
+....##.....#...
+###....##....##
+CASABLANCA#....
+...#.....#.....
+......#LITFILMS
+......#....#...
+#.....#....#...

@@ -5,3 +5,4 @@ Each project folder has a README file that gives a description of what the proje
 
 Projects with fully fleshed out README files as of right now:
  - Scrabble
+ - Messing With Images

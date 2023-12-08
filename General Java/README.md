@@ -9,3 +9,12 @@ This was another project I made for an English class, only this time for AP Lang
 
 ## Calculator
 In short, this is effectively a glorified String parser. It reads a user input math equation, which can contain the standard operations (i.e. +, -, *, /, and ^), parantheses for order of operations, e and pi, and some specific math functions (i.e. cos, sin, log, ...). Looking back at it, it's not super complicated, but I thought it was interesting at the time I made it.
+
+## Determinants
+This just calculates the determinant of a square matrix. YEP! That's it. I suppose I probably wrote this after having learned the definition of a higher dimension determinant and thought the recursive logic behind it was interesting.
+
+## Quizlet Shuffler
+I made this to shuffle a set of quizlet flashcards when compiling the complete set of chapter terms for my APUSH class right before the AP test. For some reason, Quizlet doesn't have a shuffle functionality (at least not when I used it; does it now?), and without shuffling you'd be able to tell from what unit each term would be, so I did this to help my studying ability.
+
+## Radix Sorter
+This is another one-off algorithm, that, like with the determinant calculator, I likely implemented just because I'd heard of it and thought it sounded cool. (For reference, the radix sort algorithm sorts a set of numerical data in O(n) time)

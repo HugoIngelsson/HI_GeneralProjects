@@ -8,3 +8,4 @@ Projects with fully fleshed out README files as of right now:
  - Messing With Images
  - Matrices
  - General Java
+ - Cryptology

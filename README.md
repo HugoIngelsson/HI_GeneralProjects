@@ -7,3 +7,4 @@ Projects with fully fleshed out README files as of right now:
  - Scrabble
  - Messing With Images
  - Matrices
+ - General Java

@@ -9,3 +9,4 @@ Projects with fully fleshed out README files as of right now:
  - Matrices
  - General Java
  - Cryptology
+ - Crossword Creation

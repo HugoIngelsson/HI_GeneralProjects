@@ -13,3 +13,5 @@ Last year, I put a bit more priority into solving the daily challenges as fast a
 
 ## 2023
 This is the current year, and as of writing it's currently happening. Already, I've improved my placements by a lot. I won't upload my code until the event is done, but I will upload a picture of my current times. Something that's really worked well this year is using a template that lets me avoid the headache of writing similar code for each day and also streamlines the process of coding by splitting up the two parts each day into two separate functions.
+
+![alt text](https://github.com/HugoIngelsson/HI_GeneralProjects/blob/main/Advent%20of%20Code/images/2023.png?raw=true)

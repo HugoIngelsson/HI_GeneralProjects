@@ -1,6 +1,9 @@
 # General Java
 This is a folder containing random, smaller projects I've made. I describe them all in this README file.
 
+## Minesweeper
+At some point during my senior year of high school, I got really into minesweeper, which led me to create this program. It either takes an input board or randomly generates one and then makes left- or right-clicks until it either beats the game or clicks a mine. I know it's possible to determine where mines are and aren't with matrices, but I did this using a zone system that mirrors what a human would be thinking in terms of logic. Overall, it's decent, though it's horrible at guessing when there isn't a guaranteed mine/empty spot, and at times it gets caught up on some piece of logic.
+
 ## Lear Pong Practice
 This is a program that helped me practice for a game we played in my high school AP Lit class, called Lear Pong. I made a nice user interface that let you choose acts from King Lear and either complete quotes or attribute quotes to speakers. Included is also a helper file that reads the entirety of King Lear (taken from Folger's Library, if I'm not mistaken?) and puts it into a much more easily parsed data file.
 

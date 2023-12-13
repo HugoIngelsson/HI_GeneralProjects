@@ -10,3 +10,4 @@ Projects with fully fleshed out README files as of right now:
  - General Java
  - Cryptology
  - Crossword Creation
+ - ChessBots

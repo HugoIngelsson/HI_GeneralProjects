@@ -11,3 +11,4 @@ Projects with fully fleshed out README files as of right now:
  - Cryptology
  - Crossword Creation
  - ChessBots
+ - Boggle Words

@@ -1,14 +1,7 @@
 # Hugo Ingelsson General Projects
 A repository of many of my projects.
 
-Each project folder has a README file that gives a description of what the project is all about. (Currently a WIP)
+Each project folder has a README file that gives a description of what the project is all about.
 
-Projects with fully fleshed out README files as of right now:
- - Scrabble
- - Messing With Images
- - Matrices
- - General Java
- - Cryptology
- - Crossword Creation
- - ChessBots
- - Boggle Words
+This is the order of projects I recommend you visit:
+ 1. aaa

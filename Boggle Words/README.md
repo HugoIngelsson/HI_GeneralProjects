@@ -1,18 +1,4 @@
-## Getting Started
+# Boggle Words
+This was a short project I did in response to my friends and I playing a variant of Boggle on Discord (called Spell Cast, I think?). It pretty much just brute force searches every possible placement path until there are no more possible words that could come of it and then prints the highest scoring words. Because the game also had special powerups, I implemented the ability to replace a number of letters with wildcards, but this turned out to have an extremely high time complexity (i.e. exponential), so it doesn't run well beyond 2 wildcards.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Overall, it was a nice little thing that helped me explore time complexities. I think I ended up confirming that its overall time complexity was something like O(N^2 * M * k^W), where N=board length, M=size of your dictionary, and W=the number of wildcards you have.

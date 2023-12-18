@@ -1,4 +1,4 @@
 # ChessBots
-This folder contains some scripts related to Sebastian Lague's chess bot programming challenge. It only has versions 6-10 of my bot because I managed to somehow lose the earlier versions. As of writing this, the results of the contest aren't released, but I'll probably update this when they do to share how I did.
+This folder contains some scripts related to Sebastian Lague's chess bot programming challenge. It only has versions 6-10 of my bot because I managed to somehow lose the earlier versions. Ultimately, I ended up in 111th place out of the 636 submissions, which I'm fairly satisfied with.
 
 In terms of what the bot does, it's not super interesting, insofar as that it's for the most part common algorithms used by other chess bots (i.e. alpha-beta pruning, negamax, quiescence search, etc.). The real interesting part of the challenge was that we were limited to only 1024 tokens to write the program with, which demanded we had some sort of data compression and code optimization if we wanted to add more complicated algorithms. I think this was a nice twist on making a chess bot, and I overall really enjoyed delving into how chess computers work.

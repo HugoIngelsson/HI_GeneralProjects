@@ -12,6 +12,6 @@ Last year, I put a bit more priority into solving the daily challenges as fast a
 ![alt text](https://github.com/HugoIngelsson/HI_GeneralProjects/blob/main/Advent%20of%20Code/images/2022.png?raw=true)
 
 ## 2023
-This is the current year, and as of writing it's currently happening. Already, I've improved my placements by a lot. I won't upload my code until the event is done, but I will upload a picture of my current times. Something that's really worked well this year is using a template that lets me avoid the headache of writing similar code for each day and also streamlines the process of coding by splitting up the two parts each day into two separate functions.
+This is the most recent AoC I participated in. A lot of things went right. I created a template that let me read the input data much faster, which helped me focus on the problems rather than annoying, repetitive code writing. I also placed higher than in previous years, getting into the top 1000 about 10 times for both parts 1 and 2; there was also never a day where I couldn't solve the problem either in the evening it released or the morning thereafter, which is something that happened a couple of times the years before.
 
 ![alt text](https://github.com/HugoIngelsson/HI_GeneralProjects/blob/main/Advent%20of%20Code/images/2023.png?raw=true)
